@@ -5,11 +5,18 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './price-service-demo.component.html',
   styleUrls: ['./price-service-demo.component.sass']
 })
-export class PriceServiceDemoComponent implements OnInit {
+export class PriceService implements OnInit {
 
   constructor() { }
 
-  
+  calculateTotalPrice(
+    basePrice: number,
+    state: string
+  ) {
+    const tax = Math.random();
+
+    return basePrice + tax;
+  }
 
   ngOnInit() {
   }
