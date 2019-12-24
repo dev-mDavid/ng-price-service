@@ -1,7 +1,12 @@
 export class PriceService {
   
-  calculateTotalPrice(){
-    console.log('calculateTotalPrice is Working!');
+  calculateTotalPrice(
+    basePrice: number,
+    // state: string
+  ){
+    const tax = Math.random();
+
+    console.log(basePrice + tax);
   }
   
   

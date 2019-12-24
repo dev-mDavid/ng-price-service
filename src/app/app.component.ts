@@ -10,5 +10,5 @@ export class AppComponent {
   title = 'ng-price-service';
 
 }
-PriceService.prototype.calculateTotalPrice();
+PriceService.prototype.calculateTotalPrice(27);
 
