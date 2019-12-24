@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PriceService } from './price-service-demo/price-service-1';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-price-service';
+
 }
+PriceService.prototype.calculateTotalPrice();
+
