@@ -2,7 +2,7 @@ export class PriceService {
   
   calculateTotalPrice(
     basePrice: number,
-    // state: string
+    state: string
   ){
     const tax = Math.random();
 
